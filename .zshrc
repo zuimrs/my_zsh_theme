@@ -1,3 +1,8 @@
+#plugins
+plugins=(git python osx autojump extract emoji)
+export ZSH=~/.oh-my-zsh
+source $ZSH/oh-my-zsh.sh
+
 #color{{{
 autoload colors
 colors
