@@ -340,4 +340,4 @@ check-cmd-self-insert() { zle .self-insert && recolor-cmd }
  zle -N backward-delete-char check-cmd-backward-delete-char
 
 
-
+setopt no_nomatch
